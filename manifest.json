@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "CardVault",
+  "description": "Save your credit card details for future use!",
+  "version": "1.0",
+  
+  "icons": {
+  	"48": "images/card48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "images/card.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  	"storage", "activeTab", "http://*/*", "https://*/*", "file:///*"
+  ]
+}

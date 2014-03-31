@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>testForm</title>
+		<meta name="author" content="drobbins" />
+		<!-- Date: 2013-11-07 -->
+	</head>
+	<body>
+		<form id="cardForm">
+			<div class="addnew">
+				<h4>Enter your credit card info!</h4>
+			</div>
+			<div class="collapse">
+				<label for="name">*Full Name:</label>
+	            <input type="text" class="forminput" name="name" placeholder="(as it appears on card)"/><br/>
+	            <label for="number">*Card Number:</label>
+	            <input type="text" name="number" placeholder="(16 digit number)"/><br/>
+	            <label for="month">*Exp. Date:</label>
+	            <select name="month">
+	            	<option value="">MM</option>
+	            	<option value="01">01</option>
+	            	<option value="02">02</option>
+	            	<option value="03">03</option>
+	            	<option value="04">04</option>
+	            	<option value="05">05</option>
+	            	<option value="06">06</option>
+	            	<option value="07">07</option>
+	            	<option value="08">08</option>
+	            	<option value="09">09</option>
+	            	<option value="10">10</option>
+	            	<option value="11">11</option>
+	            	<option value="12">12</option>
+	            </select>
+	            <select name="year">
+	            	<option value="">YY</option>
+	            	<option value="13">13</option>
+	            	<option value="14">14</option>
+	            	<option value="15">15</option>
+	            	<option value="16">16</option>
+	            	<option value="17">17</option>
+	            	<option value="18">18</option>
+	            </select>
+	            	<br/>
+	            <label for="code">Security Code:</label>
+	            <input type="text" name="code" placeholder="(3 or 4 digit code)"/><br/>
+	            <label for="card">Card Type:</label>
+	            <select name="card">
+  					<option value="visa">Visa</option>
+  					<option value="master">MasterCard</option>
+  					<option value="amex">American Express</option>
+  					<option value="disco">Discover</option>
+				</select>
+				<br/>
+	            <input type="submit" value="Done" name="addcard"/>
+	        </div>
+	    </form>
+	</body>
+</html>
+

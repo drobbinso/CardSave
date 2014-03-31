@@ -1,0 +1,101 @@
+/*main css*/
+body{
+	min-width:400px;
+	overflow-x:hidden;
+	background: #660000;
+}
+	
+h3{
+	font-family: Tahoma;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 26px;
+	padding-right: 40px;
+	color: #CCCCCC;
+	text-align: right;
+}
+
+h5 {
+	margin-top: -20px;
+	font-family: Tahoma;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	padding-right: 20px;
+	color: #CCCCCC;
+	text-align: right;
+}
+
+a {
+	color: white;
+	cursor: pointer;
+}
+
+/*card info*/
+.cardlist {
+	width: 400px;
+}
+
+img{
+	width: 130px;
+	height: 100px;
+	border: none;
+	margin-bottom: -20px;
+}
+
+.imgdiv {
+	width: 140px;
+	height: 120px;
+	float: left;
+}
+
+.btnremove {
+	margin-left: 35px;
+}
+
+.carddiv {
+	float: right;
+	width: 250px;
+}
+
+.cardp {
+	margin-top: 10px;
+	padding-right: 50px;
+	font-family: tahoma;
+}
+
+/*add card*/
+.newcarddiv {
+	visibility: collapse;
+	background: #DBC46E;
+}
+
+.addnew {
+	background: #DBC46E;
+	padding-left: 25px;
+	cursor: pointer;
+	font-family: tahoma;
+}
+
+.collapse {
+	padding-left: 10px;
+	font-family: tahoma;
+}
+
+h2 {
+	color:#d2db8f;
+	font-family: Verdana;
+}
+
+.nameError {
+	color:red;
+	font-family: "Arial Black";
+}
+
+.passworddiv {
+	background: #0099ff;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
